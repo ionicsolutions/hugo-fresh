@@ -23,7 +23,7 @@
                 <img src="{{ printf "/images/illustrations/icons/%s.svg" .icon | relURL }}">
             </div>
             <div class="card-text">
-                <p>{{ .text }}</p>
+                <p>{{ .text | markdownify }}</p>
             </div>
           </div>
         </div>
