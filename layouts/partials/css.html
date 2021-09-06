@@ -16,3 +16,6 @@
 <link rel="stylesheet" type="text/css" href="{{ $css.RelPermalink }}" integrity="{{ $css.Data.Integrity }}">
 {{- end }}
 <link rel="stylesheet" type="text/css" href="{{ "css/icons.css" | relURL }}">
+{{ range .Site.Params.custom_css -}}
+    <link rel="stylesheet" href="{{ . | absURL }}">
+{{- end }}
