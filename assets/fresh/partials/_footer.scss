@@ -32,6 +32,11 @@ footer.footer-dark {
             :hover {
                 color: $smoke-white;
             }
+
+            p {
+                color: $light-blue-grey;
+                font-weight: 400;
+            }
         }
         .level-item .icon {
             color: $secondary;
