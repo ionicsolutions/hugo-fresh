@@ -1,3 +1,7 @@
+**This is the modified version for the Lineate.AI website.**
+
+---
+
 # The Fresh theme for Hugo
 
 [![Documentation](https://img.shields.io/badge/Documentation-red)](https://stefma.github.io/hugo-fresh) 
