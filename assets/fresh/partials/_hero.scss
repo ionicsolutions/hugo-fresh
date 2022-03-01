@@ -1,26 +1,30 @@
 /* ==========================================================================
 Hero styles
 ========================================================================== */
-
 .hero-body {
     padding-top: 6rem;
     padding-bottom: 6rem;
+    background-color: $inlinity-deep-space-blue;
+    background-image: url("../images/photos/Inlinity_Website_Backgrounds-06.png");
     .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Spartan', sans-serif;
     }
     .title {
         &.is-bold {
             font-weight: 700;
         }
+        font-family: 'DM Serif Display', serif;
+        color: $white;
     }
     .subtitle {
         &.is-muted {
-            color: $muted-grey;
+            color: $white;
         }
     }
 }
 
 .hero-foot {
+    background-color: $inlinity-deep-space-blue;
     img.partner-logo {
         height: 70px;
     }

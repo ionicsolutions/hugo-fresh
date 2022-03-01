@@ -4,25 +4,35 @@ Section Styles
 
 //Sections
 .section {
+    background-color: $inlinity-deep-space-blue;
     &.section-light-grey {
-        background-color: $light-grey;
+        //background-color: $light-grey;
+        background-color: $inlinity-deep-space-blue;
     }
     &.section-feature-grey {
-        background-color: $section-grey;
+        //background-color: $section-grey;
+        background-color: $inlinity-deep-space-blue;
     }
     &.section-secondary {
-        background-color: $secondary;
+        //background-color: $secondary;
+        background-color: $inlinity-deep-space-blue;
     }
     &.section-half {
         height: 75vh !important;
     }
-    .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
-
+    .title {
+        font-family:  'DM Serif Display', serif;
+        color: $white;
+    } 
+    
+    .subtitle {
+        font-family: 'Spartan', sans-serif;
+        color: $white;
     }
     .subtitle {
         &.is-muted {
-            color: $muted-grey;
+            //color: $muted-grey;
+            color: $white;
         }
     }
 }
@@ -31,13 +41,19 @@ Section Styles
 .title-wrapper {
     max-width: 500px;
     margin: 0 auto;
-    .title, .subtitle {
-        font-family: 'Open Sans', sans-serif;
-
+    .title {
+        font-family:  'DM Serif Display', serif;
+        color: $white;
+    } 
+    
+    .subtitle {
+        font-family: 'Spartan', sans-serif;
+        color: $white;
     }
     .subtitle {
         &.is-muted {
-            color: $muted-grey;
+            //color: $muted-grey;
+            color: $white;
         }
     }
 }
@@ -72,12 +88,16 @@ img.pushed-image {
             display: block;
         }
         .icon-box-title {
-            color: $blue-grey;
-            font-size: 1.2rem;
+            font-family: 'DM Serif Display', serif;
+            //color: $blue-grey;
+            color: $inlinity-light-blue;
+            font-size: 2rem;
             font-weight: 600;
         }
         .icon-box-text {
-            color: $title-grey;
+            font-family: 'Spartan', sans-serif;
+            //color: $title-grey;
+            color: $white;
             font-size: 1rem;
             font-weight: 400;
         }
