@@ -16,6 +16,8 @@ Section Styles
     &.section-secondary {
         //background-color: $secondary;
         background-color: $inlinity-deep-space-blue;
+        background-image: url("../images/photos/pexels-ingrid-dietrich-4110239-sideways.jpg");
+        background-size: cover;
     }
     &.section-half {
         height: 75vh !important;
@@ -62,7 +64,7 @@ Section Styles
 .divider {
     height: 3px;
     border-radius: 50px;
-    background: $secondary;
+    background: $inlinity-electric-blue;
     width: 60px;
     &.is-centered {
         margin: 0 auto;
@@ -102,4 +104,10 @@ img.pushed-image {
             font-weight: 400;
         }
     }
+}
+
+//Left column with bg image
+.bg-image-left {
+    background-image: url("../images/photos/pexels-enes-ersahin-10866582.jpg");
+    background-size: cover;
 }
